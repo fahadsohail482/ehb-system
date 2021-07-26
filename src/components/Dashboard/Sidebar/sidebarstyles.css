@@ -1,0 +1,41 @@
+.sidebar {
+  background-color: rgb(77, 77, 206);
+  position: absolute;
+  height: 100%;
+  width: 30%;
+
+  transform: translateX(-100%);
+  color: black;
+  font-size: 25px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+
+  width: 100%;
+  min-height: 100vh;
+}
+.sidebar {
+  transition: transform 560ms;
+}
+.sidebar.active {
+  transform: translateX(0%);
+}
+*/ .main {
+  transition: padding-left 560ms;
+}
+.main.active {
+  padding-left: 300px;
+}
+.sidebar div {
+  background: rgb(255, 255, 255);
+  padding: 10px 20px;
+  margin-top: 10px;
+}

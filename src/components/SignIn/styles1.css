@@ -1,0 +1,81 @@
+.box {
+  display: flex;
+}
+#divleft {
+  background: rgb(28, 61, 247);
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+#divright {
+  background: white;
+  width: 60%;
+  padding: 10%;
+}
+h1 {
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+form input {
+  width: 200px;
+  padding: 12px 36px;
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+.box1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: row;
+}
+.box4 {
+  display: flex;
+  flex-direction: row;
+}
+.box5 {
+  display: flex;
+  flex-direction: row;
+}
+button:hover {
+  background-color: rgb(63, 106, 248);
+}
+button {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: rgb(28, 45, 255);
+  background: rgb(28, 61, 247);
+  margin-left: 15px;
+}
+a {
+  color: blue;
+}
+h2 {
+  color: white;
+  margin-left: 2vw;
+}
+.a {
+  color: blue;
+}
